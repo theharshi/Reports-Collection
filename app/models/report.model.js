@@ -5,7 +5,7 @@ module.exports = (mongoose) => {
       count: Number,
       type: Number,
       columns: [String],
-      data: [[Number]],
+      data: [[String], [[Number]]],
       emailId: String,
       reportName: String,
     },
